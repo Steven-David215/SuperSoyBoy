@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 68000010209779562}
   - component: {fileID: 95000010192098388}
   - component: {fileID: 114000010324839720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SoyBoy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,8 +126,9 @@ EdgeCollider2D:
   m_Points:
   - {x: -0.23, y: 0.195}
   - {x: -0.23, y: -0.192}
-  - {x: 0.225, y: -0.192}
-  - {x: 0.225, y: 0.195}
+  - {x: 0.16482878, y: -0.19645712}
+  - {x: 0.16705737, y: 0.012360752}
+  - {x: 0.18265727, y: 0.18831432}
   - {x: -0.23, y: 0.195}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
@@ -166,3 +167,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 14
   accel: 6
+  jumpSpeed: 8
+  jumpDurationThreshold: 0.25
+  isJumping: 0
