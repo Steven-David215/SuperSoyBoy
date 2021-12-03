@@ -41,6 +41,9 @@ public class Hazard : MonoBehaviour
             spriteRenderer.sprite = hitSprite;
             //4 Destroy the colliding object (should be the player)
             Destroy(coll.gameObject);
+     
+            // the 1.25 sec delay should be enough to see the particle effect on death
+            GameManager.instance.RestartLevel(1.25f);
         }
     }
 
